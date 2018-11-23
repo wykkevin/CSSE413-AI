@@ -1,0 +1,7 @@
+Question 3: 3 episodes
+Question 4: Yes. 0.5
+Question 5: Yes. 0.1
+Question 6: It does not learn XOR
+Question 7: I chose number of training episodes to be 10000, learning rate to be 1, and hidden layer size to be 5. I believe that let it learn for a longer time will help it learn XOR better.
+Quesiton 8: I chose number of training episodes to be 10000, learning rate to be 0.01, and hidden layer size to be 5. I think it should learn in a longer time, but learn gradually every time. So I increase the number of episodes and hiddle layer size, and decrease the learning rate.
+Question 10: I let it run 50 iterations (episodes), the initial weights is 0.5, the learning rate is 0.3, the number of the hidden layers is 1, and the size of the hidden layers is 125. Using the training data, there are 2578 errors. Using the test data, it has 5102 errors in all 10000*10 data. So the correction rate is about 94.9%. It took me to 1 hour to train the data. I found out that when the number and the size of the hidden layers go down, it has higher accuracy. Running too much iterations does not help much on the accuracy and tends to result in overfitting. The initial weight is set to be the middle number between 0 and 1. The learning rate cannot be too high because it might affect too much in one iteration. But if it is too small, it would need much more iterations to train.
